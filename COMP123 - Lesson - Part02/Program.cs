@@ -10,7 +10,13 @@ namespace COMP123___Lesson___Part02
     {
         static void Main(string[] args)
         {
-            Console.WriteLine();
+            Hero myHero = new Hero(7, 8, "female");
+
+            myHero.doesGoodThings();
+
+            //Wait for Input before closing console
+            Console.WriteLine("Press any key to exit");
+            Console.ReadKey();
         }
     }
 }
