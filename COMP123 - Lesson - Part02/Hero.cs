@@ -15,7 +15,7 @@ namespace COMP123___Lesson___Part02
         private string gender;
 
         //CONSTRUCTOR ++++++++++++++++++++++++++++++++++++++++++++++++++++
-        public Hero(int health, int smart, string gender)
+        public Hero(int health, int smarts, string gender)
         {
             this.health = health;
             this.smarts = smarts;
@@ -25,7 +25,7 @@ namespace COMP123___Lesson___Part02
 
         }
         public void doesGoodThings(){
-        Console.Write("Doin' good things..YEAH!");
+        Console.WriteLine("Doin' good things..YEAH!");
         }
     }
 }
