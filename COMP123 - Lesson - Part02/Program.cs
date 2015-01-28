@@ -10,12 +10,12 @@ namespace COMP123___Lesson___Part02
     {
         static void Main(string[] args)
         {
-            Hero myHero = new Hero(7, 8, "female");
-
+            Hero myHero = new Hero("Bravia", 7, 8, "female");
             myHero.doesGoodThings();
 
             villain myVillain = new villain ("SpiderGirl", 9, 9, "female");
             myVillain.doesBadThings();
+
             
             //Wait for Input before closing console
             Console.WriteLine("Press any key to exit");

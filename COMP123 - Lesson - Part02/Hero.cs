@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace COMP123___Lesson___Part02
 {
-    class Hero
+    class Hero : Characater
     {
         //PRIVATE PROPERTY +++++++++++++++++++++++++++++++++++++++++++++++
         private bool bravery = true;
@@ -15,11 +15,12 @@ namespace COMP123___Lesson___Part02
         private string gender;
 
         //CONSTRUCTOR ++++++++++++++++++++++++++++++++++++++++++++++++++++
-        public Hero(int health, int smarts, string gender)
+        public Hero(int health, int smarts, string gender) :
+            base(health, smarts, gender, name)
         {
-            this.health = health;
-            this.smarts = smarts;
-            this.gender = gender;
+            //this.health = health;
+            //this.smarts = smarts;
+            //this.gender = gender;
 
             // "this" means inside of class.
 
